@@ -8,7 +8,7 @@ def is_prime(n):
             return False
     return True
 
-limit = 1000000
+limit 	= 1000000
 
 primes 	= []
 c 		= 1
@@ -16,15 +16,6 @@ while sum(primes) < limit:
 	c += 1
 	if is_prime(c):
 		primes.append(c)
-
-print(primes)		
-
-"""
-primes = []
-for i in range(2,100):
-	if is_prime(i):
-		primes.append(i)
-"""
 
 
 l 		= primes
