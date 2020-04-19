@@ -10,10 +10,9 @@ def is_prime(n):
     return True
 
 
-nums = [str(i) for i in range(1,10)]
+nums    = [str(i) for i in range(1,10)]
 
-winner = 0
-
+winner  = 0
 for x in range(2,10):
 	nums = [str(i) for i in range(1,x)]
 

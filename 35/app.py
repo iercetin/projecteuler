@@ -34,9 +34,6 @@ def is_circular_prime(n):
 			return False
 	return True
 
-
-
-
 count = 0
 for i in range(2,1000000):
 	if is_circular_prime(i):
