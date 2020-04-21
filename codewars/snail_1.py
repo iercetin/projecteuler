@@ -1,3 +1,7 @@
+# Problem ID: 521c2db8ddc89b9b7a0000c1
+
+# This an example of a terrible code that work perfectly:)
+
 def first_and_right(snail_map):
     axis = len(snail_map)
 
@@ -35,8 +39,6 @@ def last_and_left(snail_map):
         r_row = snail_map[i][1:]
 
         done_row.append(row)
-
-        #r.append(row)
         remainings.append(r_row)
     
     done_row.reverse()
